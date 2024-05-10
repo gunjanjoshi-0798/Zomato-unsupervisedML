@@ -29,7 +29,8 @@ The project focuses on analyzing the sentiments of customer reviews and clusteri
 - EDA - Performed exploratory data analysis and text preprocessing
 - Data CLeaning - I had to drop the entire feature as there were more than 50% null values
 - Feature Selection - For sentiment analysis, we have used rating and reviews features. - For clustering we got cost, cusine and timing of the restaurant as the features to build the model
-- Model development - For sentiment analysis, developed different models like: logistic regression, Random Forest classifier
+- Model development - For sentiment analysis, developed different models like: logistic regression, Random Forest classifier. - For clustering the resturants I have used the k-means and hirerchical clustering.
+
 ## Approach
 
 1. **Sentiment Analysis**: Analyzed the sentiments of the reviews to understand customer feedback.
