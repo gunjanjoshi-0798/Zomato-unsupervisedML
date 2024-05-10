@@ -24,6 +24,12 @@ The project focuses on analyzing the sentiments of customer reviews and clusteri
 - `MetaData`: Reviewer metadata - number of reviews and followers
 - `Time`: Date and time of review
 
+## Project Description
+
+- EDA - Performed exploratory data analysis and text preprocessing
+- Data CLeaning - I had to drop the entire feature as there were more than 50% null values
+- Feature Selection - For sentiment analysis, we have used rating and reviews features. - For clustering we got cost, cusine and timing of the restaurant as the features to build the model
+- Model development - For sentiment analysis, developed different models like: logistic regression, Random Forest classifier
 ## Approach
 
 1. **Sentiment Analysis**: Analyzed the sentiments of the reviews to understand customer feedback.
@@ -41,12 +47,11 @@ The project focuses on analyzing the sentiments of customer reviews and clusteri
 - nltk
 - sklearn.feature_extraction.text.CountVectorizer
 
-## Usage
+## Conclusion
 
-1. Clone the repository: `git clone https://github.com/gunjanjoshi-0798/Zomato-unsupervisedML.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the collab notebook or Python script to perform the analysis and clustering.
+The project was successful in achieving the goals of clustering and sentiment analysis. The clustering part provided insights into the grouping of restaurants based on their features, which can help in decision making for users and businesses. The sentiment analysis part provided insights into the sentiments expressed by the users in their reviews, which can help businesses in improving their services and user experience.
 
-## Authors
+
+## Author
 Gunjan Joshi
 gunjan.joshi513@gmail.com
