@@ -4,6 +4,11 @@
 
 The project focuses on analyzing the sentiments of customer reviews and clustering Zomato restaurants into different segments. The goal is to provide useful insights for both customers and the company, helping customers find the best restaurants in their locality and assisting the company in areas where they are lagging.
 
+## Project Architecture
+
+![image](https://github.com/gunjanjoshi-0798/Zomato-unsupervisedML/assets/155617045/d81a95d0-24fb-42e6-a168-55dfdc017e72)
+
+
 ## Dataset Description
 
 ### Zomato Restaurant Names and Metadata
@@ -29,7 +34,7 @@ The project focuses on analyzing the sentiments of customer reviews and clusteri
 - EDA - Performed exploratory data analysis and text preprocessing
 - Data CLeaning - I had to drop the entire feature as there were more than 50% null values
 - Feature Selection - For sentiment analysis, we have used rating and reviews features. - For clustering we got cost, cusine and timing of the restaurant as the features to build the model
-- Model development - For sentiment analysis, developed different models like: logistic regression, Random Forest classifier. - For clustering the resturants I have used the k-means and hirerchical clustering.
+- Model development - For sentiment analysis using LDA and Countvectorizer. - For clustering the resturants I have used the k-means and hirerchical clustering.
 - Conclusion - Drawing some insights from the data and the predictions made by our various predictive models on unseen (test) data.
 
 ## Approach
